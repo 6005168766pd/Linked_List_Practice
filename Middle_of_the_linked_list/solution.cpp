@@ -1,6 +1,6 @@
 class Solution {
 public:
-    ListNode* middleNode(ListNode* head) {
+    ListNode* MiddleNode(ListNode* head) {
         ListNode* slow = head;
         ListNode* fast = head;
 
