@@ -1,6 +1,6 @@
-# ➕ Add Two Numbers (Linked List)
+#  Add Two Numbers (Linked List)
 
-## 📌 Problem Statement
+##  Problem Statement
 
 You are given two non-empty linked lists representing two non-negative integers.
 The digits are stored in **reverse order**, and each node contains a single digit.
@@ -9,7 +9,7 @@ Add the two numbers and return the sum as a linked list.
 
 ---
 
-## 🧠 Intuition
+##  Intuition
 
 This problem is similar to **adding numbers manually**:
 
@@ -19,7 +19,7 @@ This problem is similar to **adding numbers manually**:
 
 ---
 
-## ⚙️ Approach: Iterative with Carry (Optimal 🔥)
+## ⚙️ Approach: Iterative with Carry (Optimal )
 
 ### 💡 Idea
 
