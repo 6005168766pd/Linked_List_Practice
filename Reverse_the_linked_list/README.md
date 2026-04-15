@@ -6,7 +6,7 @@ Given the head of a singly linked list, reverse the list and return the new head
 
 ---
 
-## 🧠 Intuition
+##  Intuition
 
 To reverse a linked list, we change the direction of pointers.
 
@@ -20,7 +20,7 @@ We want:
 
 ## ⚙️ Approach 1: Iterative (Best Approach)
 
-### 💡 Idea
+###  Idea
 
 Use three pointers to reverse links step by step.
 
