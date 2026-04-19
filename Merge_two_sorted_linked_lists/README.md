@@ -1,4 +1,4 @@
-# 🔗 Merge Two Sorted Linked Lists
+#  Merge Two Sorted Linked Lists
 
 ## 📌 Problem Statement
 
