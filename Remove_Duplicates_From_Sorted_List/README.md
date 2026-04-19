@@ -1,13 +1,13 @@
-# 🧹 Remove Duplicates from Sorted List
+#  Remove Duplicates from Sorted List
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the head of a **sorted** linked list, delete all duplicates such that each element appears only once.
 Return the linked list sorted as well.
 
 ---
 
-## 🧠 Intuition
+##  Intuition
 
 Since the linked list is **sorted**, duplicate values will always be **adjacent**.
 
@@ -18,15 +18,15 @@ So, we can simply:
 
 ---
 
-## ⚙️ Approach: One Pass In-Place Removal
+##  Approach: One Pass In-Place Removal
 
-### 💡 Idea
+###  Idea
 
 Traverse the list and remove duplicates by adjusting pointers without using extra space.
 
 ---
 
-## 🧩 Algorithm
+##  Algorithm
 
 1. Initialize:
 
@@ -103,7 +103,7 @@ public:
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 * Works because the list is **sorted**
 * No extra data structures are used
@@ -111,7 +111,7 @@ public:
 
 ---
 
-## 🚀 Tags
+##  Tags
 
 `Linked List` `Easy` `In-Place`
 
