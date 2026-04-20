@@ -1,4 +1,4 @@
-# 🟢 Middle of the Linked List
+#  Middle of the Linked List
 
 > LeetCode Problem: Middle of the Linked List
 > Difficulty: Easy
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the head of a singly linked list, return the **middle node** of the linked list.
 
