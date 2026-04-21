@@ -115,11 +115,5 @@ public:
 
 ---
 
-## 🔥 Key Learnings
 
-* Two pointer (fast & slow) technique
-* Handling edge cases with dummy node
-* One-pass solution
-
----
 
