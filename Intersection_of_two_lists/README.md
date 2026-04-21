@@ -162,10 +162,3 @@ NULL
 
 ---
 
-## ⚠️ Important Notes
-
-* Comparison is based on **node address**, not value
-* Lists remain unchanged
-* Works even if lengths differ
-
----
