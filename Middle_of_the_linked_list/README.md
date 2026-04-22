@@ -14,21 +14,21 @@ If there are two middle nodes, return the **second middle node**.
 
 ---
 
-## 🧠 Approach (Two Pointer Technique)
+##  Approach (Two Pointer Technique)
 
 We use two pointers:
 
 * **Slow pointer** → moves 1 step at a time
 * **Fast pointer** → moves 2 steps at a time
 
-### 🔁 Logic:
+###  Logic:
 
 * When the fast pointer reaches the end,
 * The slow pointer will be at the **middle**
 
 ---
 
-## ⚙️ Algorithm
+##  Algorithm
 
 1. Initialize two pointers:
 
