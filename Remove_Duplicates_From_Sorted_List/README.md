@@ -57,7 +57,7 @@ Traverse the list and remove duplicates by adjusting pointers without using extr
 
 ---
 
-## 💻 Code (C++)
+##  Code (C++)
 
 ```cpp id="x8c9tp"
 class Solution {
@@ -80,7 +80,7 @@ public:
 
 ---
 
-## 📚 Example
+##  Example
 
 ### Input:
 
@@ -96,7 +96,7 @@ public:
 
 ---
 
-## ⏱️ Complexity
+##  Complexity
 
 * Time Complexity: **O(n)**
 * Space Complexity: **O(1)**
@@ -108,13 +108,5 @@ public:
 * Works because the list is **sorted**
 * No extra data structures are used
 * Modifies the list **in-place**
-
----
-
-##  Tags
-
-`Linked List` `Easy` `In-Place`
-
----
 
 
