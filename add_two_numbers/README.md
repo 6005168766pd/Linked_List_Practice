@@ -19,9 +19,9 @@ This problem is similar to **adding numbers manually**:
 
 ---
 
-## ⚙️ Approach: Iterative with Carry (Optimal )
+##  Approach: Iterative with Carry (Optimal )
 
-### 💡 Idea
+###  Idea
 
 Traverse both linked lists simultaneously and:
 
