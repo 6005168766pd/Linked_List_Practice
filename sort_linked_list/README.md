@@ -1,13 +1,13 @@
-# 🔗 Sort Linked List
+#  Sort Linked List
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the head of a singly linked list,
-👉 sort the list in **ascending order** and return the sorted list.
+ sort the list in **ascending order** and return the sorted list.
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Example 1:
 
