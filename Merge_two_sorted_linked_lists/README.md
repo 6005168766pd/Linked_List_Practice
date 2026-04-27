@@ -1,15 +1,15 @@
 #  Merge Two Sorted Linked Lists
 
-## 📌 Problem Statement
+##  Problem Statement
 
 You are given the heads of two **sorted linked lists** `list1` and `list2`.
 
-👉 Merge the two lists into a single **sorted linked list**
-👉 Return the head of the merged list
+ Merge the two lists into a single **sorted linked list**
+ Return the head of the merged list
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Example 1:
 
@@ -31,13 +31,13 @@ Output: 0
 
 ---
 
-## 🚀 Approach
+##  Approach
 
-### 🔹 Iterative Approach (Optimal)
+###  Iterative Approach (Optimal)
 
 We use a **dummy node** to simplify merging.
 
-### 💡 Steps:
+###  Steps:
 
 1. Create a dummy node
 2. Use a pointer `tail` to build the new list
@@ -51,14 +51,14 @@ We use a **dummy node** to simplify merging.
 
 ---
 
-## ⚡ Key Idea
+##  Key Idea
 
-👉 Always pick the **smaller node**
-👉 Maintain sorted order while merging
+ Always pick the **smaller node**
+ Maintain sorted order while merging
 
 ---
 
-## 🧠 Algorithm
+##  Algorithm
 
 ```
 1. Create dummy node
@@ -73,7 +73,7 @@ We use a **dummy node** to simplify merging.
 
 ---
 
-## 💻 Code (C++)
+##  Code (C++)
 
 ```cpp
 class Solution {
@@ -104,7 +104,7 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+##  Complexity Analysis
 
 | Complexity | Value    |
 | ---------- | -------- |
