@@ -1,6 +1,6 @@
-# 🔁 Linked List Cycle II
+#  Linked List Cycle II
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return `NULL`.
 
@@ -8,7 +8,7 @@ A cycle exists if a node can be reached again by continuously following the `nex
 
 ---
 
-## 🧠 Intuition
+##  Intuition
 
 Detecting a cycle is not enough — we must find the **exact node where the cycle starts**.
 
@@ -16,9 +16,9 @@ This can be done efficiently using **Floyd’s Cycle Detection Algorithm (Tortoi
 
 ---
 
-## ⚙️ Approach: Floyd’s Algorithm (Optimal 🔥)
+##  Approach: Floyd’s Algorithm (Optimal )
 
-### 💡 Core Idea
+###  Core Idea
 
 1. Use two pointers:
 
@@ -30,7 +30,7 @@ This can be done efficiently using **Floyd’s Cycle Detection Algorithm (Tortoi
 
 ---
 
-## 🧩 Algorithm
+##  Algorithm
 
 1. Initialize:
 
@@ -50,7 +50,7 @@ This can be done efficiently using **Floyd’s Cycle Detection Algorithm (Tortoi
 
 ---
 
-## 💻 Code (C++)
+##  Code (C++)
 
 ```cpp
 class Solution {
@@ -82,7 +82,7 @@ public:
 
 ---
 
-## 🔍 Intuition (Why it works)
+##  Intuition (Why it works)
 
 Let:
 
@@ -96,8 +96,6 @@ After pointers meet:
 
 ---
 
-## 📚 Example
-
 ### Example:
 
 Input:
@@ -110,14 +108,14 @@ Node with value 2 (cycle start)
 
 ---
 
-## ⏱️ Complexity
+##  Complexity
 
 * Time Complexity: **O(n)**
-* Space Complexity: **O(1)** ✅
+* Space Complexity: **O(1)** 
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 * Comparison is based on **node address**, not value
 * No modification of list is required
@@ -125,7 +123,7 @@ Node with value 2 (cycle start)
 
 ---
 
-## 🚀 Tags
+##  Tags
 
 `Linked List` `Two Pointers` `Cycle Detection` `Medium`
 
