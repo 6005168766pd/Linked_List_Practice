@@ -1,6 +1,6 @@
-# 🔁 Reverse a Linked List
+#  Reverse a Linked List
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the head of a singly linked list, reverse the list and return the new head.
 
@@ -18,13 +18,13 @@ We want:
 
 ---
 
-## ⚙️ Approach 1: Iterative (Best Approach)
+##  Approach 1: Iterative (Best Approach)
 
 ###  Idea
 
 Use three pointers to reverse links step by step.
 
-### 🧩 Algorithm
+###  Algorithm
 
 1. Initialize:
 
@@ -40,7 +40,7 @@ Use three pointers to reverse links step by step.
      * `curr = next`
 3. Return `prev` (new head)
 
-### 💻 Code (C++)
+###  Code (C++)
 
 ```cpp
 class Solution {
@@ -63,13 +63,13 @@ public:
 
 ---
 
-## 🔁 Approach 2: Recursive
+##  Approach 2: Recursive
 
-### 💡 Idea
+###  Idea
 
 Reverse the rest of the list, then fix the current node.
 
-### 🧩 Algorithm
+###  Algorithm
 
 1. Base case:
 
@@ -81,7 +81,7 @@ Reverse the rest of the list, then fix the current node.
    * `head->next = NULL`
 4. Return new head
 
-### 💻 Code (C++)
+###  Code (C++)
 
 ```cpp
 class Solution {
