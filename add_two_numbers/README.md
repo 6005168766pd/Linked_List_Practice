@@ -31,7 +31,7 @@ Traverse both linked lists simultaneously and:
 
 ---
 
-## 🧩 Algorithm
+##  Algorithm
 
 1. Initialize:
 
@@ -53,7 +53,7 @@ Traverse both linked lists simultaneously and:
 
 ---
 
-## 💻 Code (C++)
+##  Code (C++)
 
 ```cpp
 class Solution {
