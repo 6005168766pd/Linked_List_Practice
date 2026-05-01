@@ -101,7 +101,7 @@ public:
 
 ---
 
-## ⏱️ Complexity
+##  Complexity
 
 | Approach  | Time Complexity | Space Complexity |
 | --------- | --------------- | ---------------- |
@@ -110,7 +110,7 @@ public:
 
 ---
 
-## 📚 Example
+##  Example
 
 Input:
 1 → 2 → 3 → 4 → NULL
@@ -120,7 +120,7 @@ Output:
 
 ---
 
-## 🚀 Tags
+##  Tags
 
 `Linked List` `Easy` `Recursion` `Pointers`
 
