@@ -1,14 +1,14 @@
-# 🔗 Intersection of Two Linked Lists
+#  Intersection of Two Linked Lists
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the heads of two singly linked lists `headA` and `headB`, return the node at which the two lists intersect. If the two linked lists have no intersection, return `NULL`.
 
-> ⚠️ Intersection means **same node in memory**, not same value.
+>  Intersection means **same node in memory**, not same value.
 
 ---
 
-## 🧠 Intuition
+##  Intuition
 
 If two linked lists intersect, they will share the same tail nodes after the intersection point.
 
@@ -21,14 +21,14 @@ The main challenge is:
 
 ## ⚙️ Approach 1: HashSet (Brute Force)
 
-### 💡 Idea
+###  Idea
 
 * Store all nodes of list A in a hash set
 * Traverse list B and check the first node that appears in the set
 
 ---
 
-### 🧩 Algorithm
+###  Algorithm
 
 1. Traverse list A → store each node in a set
 2. Traverse list B:
@@ -38,7 +38,7 @@ The main challenge is:
 
 ---
 
-### 💻 Code (C++)
+###  Code (C++)
 
 ```cpp
 class Solution {
