@@ -45,7 +45,7 @@ We use two pointers:
 
 ---
 
-## 💻 Code (C++)
+##  Code (C++)
 
 ```cpp
 class Solution {
@@ -66,13 +66,8 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+##  Complexity Analysis
 
 * **Time Complexity:** O(n)
 * **Space Complexity:** O(1)
 
-
-
-
-
-> 💡 This is the beginning of my Linked List mastery journey. Stay tuned for more!
