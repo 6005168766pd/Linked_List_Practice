@@ -63,22 +63,22 @@ public:
 
 ---
 
-### ⏱️ Complexity
+###  Complexity
 
 * Time: **O(n + m)**
 * Space: **O(n)**
 
 ---
 
-## ⚡ Approach 2: Two Pointer (Optimal 🔥)
+##  Approach 2: Two Pointer (Optimal )
 
-### 💡 Core Idea
+###  Core Idea
 
 Make both pointers traverse equal distance by switching heads.
 
 ---
 
-### 🧩 Algorithm
+###  Algorithm
 
 1. Initialize:
 
@@ -93,7 +93,7 @@ Make both pointers traverse equal distance by switching heads.
 
 ---
 
-### 💻 Code (C++)
+###  Code (C++)
 
 ```cpp
 class Solution {
@@ -114,7 +114,7 @@ public:
 
 ---
 
-### 🔍 Intuition (Why it works)
+###  Intuition (Why it works)
 
 Let:
 
@@ -127,18 +127,18 @@ After switching:
 * Pointer A travels → `x + c + y`
 * Pointer B travels → `y + c + x`
 
-👉 Both travel equal distance → meet at intersection
+ Both travel equal distance → meet at intersection
 
 ---
 
-### ⏱️ Complexity
+###  Complexity
 
 * Time: **O(n + m)**
-* Space: **O(1)** ✅
+* Space: **O(1)** 
 
 ---
 
-## 📚 Example
+##  Example
 
 ### Example 1:
 
