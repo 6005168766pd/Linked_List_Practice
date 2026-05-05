@@ -88,7 +88,7 @@ public:
 
 ---
 
-## 📚 Example
+##  Example
 
 ### Example:
 
