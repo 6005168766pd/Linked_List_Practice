@@ -1,12 +1,12 @@
-# 🧩 Remove Nth Node From End of List
+#  Remove Nth Node From End of List
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the head of a singly linked list, remove the **Nth node from the end** of the list and return its head.
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Example 1:
 
@@ -24,16 +24,16 @@ Output: NULL
 
 ---
 
-## 🚀 Approach
+##  Approach
 
-### 🔹 Two Pointer Technique (Optimal)
+###  Two Pointer Technique (Optimal)
 
 We use two pointers:
 
 * `fast`
 * `slow`
 
-### 💡 Steps:
+###  Steps:
 
 1. Move `fast` pointer **n+1 steps ahead**
 2. Move both `fast` and `slow` together
@@ -44,13 +44,13 @@ We use two pointers:
 
 ---
 
-## ⚡ Key Idea
+##  Key Idea
 
 Using a **dummy node** helps handle edge cases easily (like deleting the head node).
 
 ---
 
-## 🧠 Algorithm
+##  Algorithm
 
 ```
 1. Create a dummy node pointing to head
@@ -63,7 +63,7 @@ Using a **dummy node** helps handle edge cases easily (like deleting the head no
 
 ---
 
-## 💻 Code (C++)
+##  Code (C++)
 
 ```cpp
 class Solution {
@@ -107,7 +107,7 @@ public:
 
 ---
 
-## ⚠️ Edge Cases
+##  Edge Cases
 
 * Single node list
 * Removing head node
